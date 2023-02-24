@@ -14,7 +14,7 @@ export default function App() {
         screenOptions={{
           headerShown: false,
         }}
-        initialRouteName="bottomTab">
+        initialRouteName="signup">
         <Stack.Screen name="signup" component={Signup} />
         <Stack.Screen name="passcode" component={Passcode} />
         <Stack.Screen name="bottomTab" component={BottomTabs} />
